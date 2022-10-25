@@ -10,11 +10,11 @@ package factory;
  */
 public class FrenchFries implements Product {
     
-  //預設有鹽巴的
+    //預設有鹽巴的
     String state = "有鹽巴";
-    //預設的建構子
+    //預設的建構
     protected FrenchFries(){}
-    //帶入狀態的建構子
+    //帶入狀態的建構
     protected FrenchFries(String state){
         this.state = state;
     }
