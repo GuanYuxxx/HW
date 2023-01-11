@@ -21,7 +21,7 @@ public class Maze {
         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}};
 
     static boolean findPath(int x, int y) {
-        if (x == 8 && y == 8) { // 是否是迷宮出口
+        if (x == 7 && y == 8) { // 是否是迷宮出口
             maze[x][y] = 2; // 走過的路
             return true;
         } else if (maze[x][y] == 0) { // 是不是可以走的路
